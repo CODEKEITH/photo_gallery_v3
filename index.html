@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8">
+	 <title>Photo Gallery</title>
+	 <link rel="stylesheet" href="css/normalize.css">
+	 <link rel="stylesheet" href="dist/css/lightbox.css">
+	 <link rel="stylesheet" href="css/styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+
+<body>
+
+	<header class="top-bar">
+	
+	</header>
+
+<div class="container">
+	
+	<div id="search">
+		<input type="text" placeholder="Search" id="filter-search"/>
+	</div>
+	
+	<div id="gallery">
+		<a class="gallery" href="photos/01.jpg" data-lightbox="image-1" data-title="<h3>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</h3>"><img src="photos/thumbnails/01.jpg" class="thumbnails" alt="Hay Bales"/></a>
+		<a class="gallery" href="photos/02.jpg" data-lightbox="image-1" data-title="<h3>The lake was so calm today. We had a great view of the snow on the mountains from here.</h3>"><img src="photos/thumbnails/02.jpg" class="thumbnails" alt="Lake"/></a>
+		<a class="gallery" href="photos/03.jpg" data-lightbox="image-1" data-title="<h3>I hiked to the top of the mountain and got this picture of the canyon and trees below.</h3>"><img src="photos/thumbnails/03.jpg" class="thumbnails" alt="Canyon"/></a>
+		<a class="gallery" href="photos/04.jpg" data-lightbox="image-1" data-title="<h3>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</h3>"><img src="photos/thumbnails/04.jpg" class="thumbnails" alt="Iceburg"/></a>
+		<a class="gallery" href="photos/05.jpg" data-lightbox="image-1" data-title="<h3>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</h3>"><img src="photos/thumbnails/05.jpg" class="thumbnails" alt="Red Cliffs"/></a>
+		<a class="gallery" href="photos/06.jpg" data-lightbox="image-1" data-title="<h3>Fall is coming, I love when the leaves on the trees start to change color.</h3>"><img src="photos/thumbnails/06.jpg" class="thumbnails" alt="Fall Trees"/></a>
+		<a class="gallery" href="photos/07.jpg" data-lightbox="image-1" data-title="<h3>I drove past this plantation yesterday, everything is so green!</h3>"><img src="photos/thumbnails/07.jpg" class="thumbnails" alt="Plantation"/></a>
+		<a class="gallery" href="photos/08.jpg" data-lightbox="image-1" data-title="<h3>My summer vacation to the Oregon Coast. I love the sandy dunes!</h3>"><img src="photos/thumbnails/08.jpg" class="thumbnails" alt="Sand Dunes"/></a>
+		<a class="gallery" href="photos/09.jpg" data-lightbox="image-1" data-title="<h3>We enjoyed a quiet stroll down this countryside lane.</h3>"><img src="photos/thumbnails/09.jpg" class="thumbnails" alt="Countryside Lane"/></a>
+		<a class="gallery" href="photos/10.jpg" data-lightbox="image-1" data-title="<h3>Sunset at the coast! The sky turned a lovely shade of orange.</h3>"><img src="photos/thumbnails/10.jpg" class="thumbnails" alt="Sunset"/></a>
+		<a class="gallery" href="photos/11.jpg" data-lightbox="image-1" data-title="<h3>I did a tour of a cave today and the view of the landscape below was breathtaking.</h3>"><img src="photos/thumbnails/11.jpg" class="thumbnails" alt="Cave"/></a>
+		<a class="gallery" href="photos/12.jpg" data-lightbox="image-1" data-title="<h3>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</h3>"><img src="photos/thumbnails/12.jpg" class="thumbnails" alt="Meadow"/></a>
+	</div>
+	
+</div>
+
+<footer class="lower-bar">
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="dist/js/lightbox.js"></script>
+  <script src="search.js"></script>
+  
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+	  'maxWidth': 700,
+	  'showImageNumberLabel': false,
+	  'positionFromTop': 150
+    })
+</script>
+  
+
+</body>
+</html>

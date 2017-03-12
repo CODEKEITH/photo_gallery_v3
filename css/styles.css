@@ -1,0 +1,171 @@
+* { 
+    box-sizing: border-box;
+}
+
+.top-bar {
+	background: #ebf6f9;
+	max-width: 100%;
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+.container {
+	max-width: 300px; 
+	margin: 0 auto;
+}
+
+
+#gallery {
+	margin: 0 auto;
+}
+
+.thumbnails {
+	width: 49%;
+	padding: 5px
+}
+
+#search {
+	padding-top: 10px;
+}
+
+input[type="text"] {
+	background: rgba(255,255,255,0.1);
+	border: 3px solid #ebf6f9;
+	font-size: 16px;
+	height: auto;
+	margin: 25px 0px;
+	outline: 0;
+	padding: 15px;
+	width: 300px;
+	background-color: white;
+	color: #8a97a0;
+	box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="text"]:focus {
+	background: #ebf6f9;
+}
+
+#gallery a {
+	display: inline;
+	padding-bottom: 25px;
+}
+
+footer {
+	width: 100%;
+	background: #ebf6f9;
+	position: fixed;
+    bottom: 0;
+    height: 50px;
+}
+
+.lb-nav a.lb-next {
+	opacity: 0.7;
+}
+
+.lb-nav a.lb-prev {
+	opacity: 0.7;
+}
+
+
+@media (min-width: 568px) {
+	
+.container {
+	max-width: 465px; 
+	margin: 0 auto;
+}
+
+#gallery a {
+	display: inline-block;
+	margin: 15px;
+	padding-bottom: 15px;
+}
+
+input[type="text"] {
+	width: 320px;
+	margin: 25px 75px;
+}
+
+.thumbnails {
+	width: 100%;
+	padding: 0;
+}
+
+}
+
+
+@media (min-width: 768px) {
+	
+.container {
+	max-width: 699px; 
+	margin: 0 auto;
+}
+
+#gallery a {
+	margin: 15px;
+	padding-bottom: 15px;
+}
+
+input[type="text"] {
+	width: 320px;
+	margin: 25px 190px;
+}
+
+.lb-data {
+	padding-top: 20px;
+}
+
+h3 {
+	padding-left: 60px;
+}	
+	
+}
+
+
+@media (min-width: 1024px) {
+	
+
+.container {
+	max-width: 935px; 
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	width: 470px;
+	margin: 25px 230px;
+}
+
+.lb-data .lb-details {
+	width: 600px;
+}
+
+.lb-data {
+	padding-top: 15px;
+}
+
+
+h3 {
+	padding-left: 150px;
+}
+
+.lb-nav a.lb-next {
+    position: fixed;
+	right: 0;
+	top: 20%;
+	max-height: 390px;
+	opacity: 0.7;
+	margin-right: 70px;
+}
+
+.lb-nav a.lb-prev {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    max-height: 390px;
+    opacity: 0.7;
+    margin-left: 70px;
+}
+	
+}
