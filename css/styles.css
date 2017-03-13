@@ -69,6 +69,7 @@ footer {
 	opacity: 0.7;
 }
 
+/*Mobile Landscape View*/
 
 @media (min-width: 568px) {
 	
@@ -95,6 +96,7 @@ input[type="text"] {
 
 }
 
+/*Tablet View*/
 
 @media (min-width: 768px) {
 	
@@ -123,6 +125,7 @@ h3 {
 	
 }
 
+/*Desktop View*/
 
 @media (min-width: 1024px) {
 	
