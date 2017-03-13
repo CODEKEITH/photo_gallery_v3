@@ -2,15 +2,15 @@ var $image = ".gallery";
 var $search = "#filter-search";
 
 $($search).keyup(function(){
-  var $searchInput = $($search).val();
+  var $searchInput = $($search).val().toLowerCase();
 
-  if ($searchInput != ""){
+  if ($searchInput !== ""){
     $($image).hide();
 
 $($image).each(function(){
-	var $data = $(this).attr("data-title");
+	var $imageData = $(this).attr("data-title").toLowerCase();
 
-  if ($data.indexOf($searchInput) >= 0){
+  if ($imageData.indexOf($searchInput) >= 0){
     $(this).show();
    }
 });
